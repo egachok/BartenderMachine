@@ -2,10 +2,10 @@ package ChainOfResponsibilityDistributor;
 
 import Bartender.Ingredient;
 
-public class StrongDrinkDistributor extends AbstractDrinkDistributor {
+public class SoftDrinkDistributor extends AbstractDrinkDistributor {
 
-    public StrongDrinkDistributor() {
-        this.DrinkType = DrinkType.Strong;
+    public SoftDrinkDistributor() {
+        this.DrinkType = DrinkType.Soft;
     }
 
     protected void distributeDrink(Ingredient ingredientToDistribute) {
